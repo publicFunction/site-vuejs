@@ -13,7 +13,7 @@
             class="navbar-brand"
             :to="{ name: 'home.index' }"
           >
-            My App
+            {publicFunction}
           </router-link>
         </div>
 
@@ -41,13 +41,6 @@
                 Account
               </a>
             </router-link>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#" @click.prevent="logout">
-                <i class="fa fa-sign-out"></i>
-              </a>
-            </li>
           </ul>
         </div>
       </div>

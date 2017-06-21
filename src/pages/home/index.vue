@@ -4,39 +4,13 @@
       contextual-style="primary"
     >
       <h1 class="panel-title" slot="heading">
-        Welcome!
+        Featured Video
       </h1>
       <div slot="body">
-        <p>
-          Get started with the Vue 2 boilerplate
-        </p>
-        <p>
-          For questions, contact me:
-        </p>
-        <p>
-          <a class="btn btn-primary" href="http://gitter.im/petervmeijgaard" target="_blank">
-            <i class="fa fa-github fa-fw" aria-hidden="true"></i>
-            <span class="padding-left">Gitter</span>
-          </a>
-          <a class="btn btn-primary" href="http://github.com/petervmeijgaard" target="_blank">
-            <i class="fa fa-github fa-fw" aria-hidden="true"></i>
-            <span class="padding-left">GitHub</span>
-          </a>
-          <a class="btn btn-primary" href="http://twitter.com/petervmeijgaard" target="_blank">
-            <i class="fa fa-twitter fa-fw" aria-hidden="true"></i>
-            <span class="padding-left">Twitter</span>
-          </a>
-        </p>
-        <p>
-          For bugs, see:
-        </p>
-        <a class="btn btn-primary" href="https://github.com/petervmeijgaard/vue-2.0-boilerplate/issues" target="_blank">
-          <i class="fa fa-github fa-fw" aria-hidden="true"></i>
-          <span class="padding-left">GitHub</span>
-        </a>
+        Video goes here
       </div>
       <div slot="footer">
-        Made with love by Vivid Web
+        Any additional Information goes here
       </div>
     </v-panel>
   </v-layout>
@@ -53,7 +27,7 @@
   export default {
     components: {
       VLayout: require('@/layouts/default.vue'),
-      VPanel: require('@/components/panel.vue'),
+      VPanel: require('@/components/featured.vue'),
     },
   };
 </script>
