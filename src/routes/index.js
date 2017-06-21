@@ -14,7 +14,7 @@
 export default [
   // Home
   {
-    path: '/home',
+    path: '/',
     name: 'home.index',
     component: require('@/pages/home/index.vue'),
 
