@@ -146,6 +146,8 @@ window.$ = window.jQuery = jQuery;
 require('bootstrap');
 require('bootstrap/less/bootstrap.less');
 
+require('materialize-css/dist/css/materialize.min.css');
+require('materialize-css/dist/js/materialize.min');
 
 /* ============
  * Font Awesome

@@ -35,6 +35,7 @@
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
+    "materialize-css": "^0.99.0",
     "vue": "^2.2.6",
     "vue-i18n": "^6.1.1",
     "vue-router": "^2.5.1",

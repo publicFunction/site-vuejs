@@ -1,8 +1,6 @@
 <template>
   <v-layout>
-    <v-panel
-      contextual-style="primary"
-    >
+    <v-panel contextual-style="primary">
       <h1 class="panel-title" slot="heading">
         Featured Video
       </h1>
